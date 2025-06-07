@@ -4,8 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+        <link rel="stylesheet" href="estilos/estilo.css">
+
 </head>
 <body>
-    <h1>Aqui você vai pesquisar/gerar suas imagens</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="gerar.html">Gerar Imagem</a></li>
+            </ul>            
+        </nav>
+    </header>
+
+    <section>
+    <h1>Gerador de Imagens</h1>
+<h2>Descreva a imagem que deseja gerar:</h2>
+<br>
+<br>
+<input type="text" id="descricao" placeholder="Ex: Beyoncé dando na cara de Lady gaga">
+<br>
+<br>
+<button onclick="gerarImagem()">Bota pra Gerar</button>
+
+<div id="imagem-gerada"></div>
+</section>
+<footer>
+        &copy; 2025 Gerador de Imagens. Todos os direitos reservados.
+        </footer>
 </body>
 </html>
